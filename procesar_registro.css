@@ -1,0 +1,36 @@
+/* Estilos para el mensaje de registro exitoso */
+.mensaje-exito {
+    background-color: #4CAF50; /* Fondo verde */
+    color: #fff; /* Texto blanco */
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Estilos para el enlace "Iniciar sesión" dentro del mensaje */
+.mensaje-exito a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.mensaje-exito a:hover {
+    color: #f0f0f0; /* Cambio de color al pasar el cursor sobre el enlace */
+}
+/* Estilos para el mensaje de error */
+.mensaje-error {
+    background-color: #FF5733; /* Fondo rojo */
+    color: #fff; /* Texto blanco */
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Estilos para el texto de error dentro del mensaje */
+.mensaje-error-texto {
+    font-weight: bold;
+}
+

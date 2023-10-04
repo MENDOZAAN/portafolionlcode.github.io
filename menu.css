@@ -1,0 +1,104 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #0056b3;
+}
+
+/* Secciones */
+.titulo {
+    font-size: 36px;
+}
+
+.subtitulo {
+    font-size: 20px;
+    color: #333;
+}
+
+/* Proyectos */
+.proyecto {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.proyecto img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Contacto */
+.redes-sociales {
+    list-style: none;
+    padding: 0;
+}
+
+.redes-sociales li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.redes-sociales li:last-child {
+    margin-right: 0;
+}
+
+.redes-sociales a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.redes-sociales a:hover {
+    color: #0056b3;
+}
+
+/* Pie de Página */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
